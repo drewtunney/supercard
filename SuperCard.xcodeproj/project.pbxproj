@@ -21,6 +21,7 @@
 		0FC5456819094E3700DD06F9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FC5454A19094E3700DD06F9 /* UIKit.framework */; };
 		0FC5457019094E3700DD06F9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0FC5456E19094E3700DD06F9 /* InfoPlist.strings */; };
 		0FC5457219094E3700DD06F9 /* SuperCardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FC5457119094E3700DD06F9 /* SuperCardTests.m */; };
+		0FC545801909501300DD06F9 /* PlayingCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FC5457F1909501300DD06F9 /* PlayingCardView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		0FC5456D19094E3700DD06F9 /* SuperCardTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SuperCardTests-Info.plist"; sourceTree = "<group>"; };
 		0FC5456F19094E3700DD06F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0FC5457119094E3700DD06F9 /* SuperCardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperCardTests.m; sourceTree = "<group>"; };
+		0FC5457E1909501300DD06F9 /* PlayingCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayingCardView.h; path = ../PlayingCardView.h; sourceTree = "<group>"; };
+		0FC5457F1909501300DD06F9 /* PlayingCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayingCardView.m; path = ../PlayingCardView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,8 @@
 			isa = PBXGroup;
 			children = (
 				0FC5455819094E3700DD06F9 /* Main.storyboard */,
+				0FC5457E1909501300DD06F9 /* PlayingCardView.h */,
+				0FC5457F1909501300DD06F9 /* PlayingCardView.m */,
 				0FC5455B19094E3700DD06F9 /* ViewController.h */,
 				0FC5455C19094E3700DD06F9 /* ViewController.m */,
 				0FC5455E19094E3700DD06F9 /* Images.xcassets */,
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FC5455D19094E3700DD06F9 /* ViewController.m in Sources */,
+				0FC545801909501300DD06F9 /* PlayingCardView.m in Sources */,
 				0FC5455719094E3700DD06F9 /* AppDelegate.m in Sources */,
 				0FC5455319094E3700DD06F9 /* main.m in Sources */,
 			);
